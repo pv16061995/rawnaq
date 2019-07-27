@@ -1,0 +1,1115 @@
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/bz2.so' - /opt/alt/php56/usr/lib64/php/modules/bz2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/calendar.so' - /opt/alt/php56/usr/lib64/php/modules/calendar.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/ctype.so' - /opt/alt/php56/usr/lib64/php/modules/ctype.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/curl.so' - /opt/alt/php56/usr/lib64/php/modules/curl.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/exif.so' - /opt/alt/php56/usr/lib64/php/modules/exif.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/ftp.so' - /opt/alt/php56/usr/lib64/php/modules/ftp.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/gettext.so' - /opt/alt/php56/usr/lib64/php/modules/gettext.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/iconv.so' - /opt/alt/php56/usr/lib64/php/modules/iconv.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/mysqlnd_mysql.so' - /opt/alt/php56/usr/lib64/php/modules/mysqlnd_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/mysqlnd_mysqli.so' - /opt/alt/php56/usr/lib64/php/modules/mysqlnd_mysqli.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/pdo_mysqlnd.so' - /opt/alt/php56/usr/lib64/php/modules/pdo_mysqlnd.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/simplexml.so' - /opt/alt/php56/usr/lib64/php/modules/simplexml.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/sqlite3.so' - /opt/alt/php56/usr/lib64/php/modules/sqlite3.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/tokenizer.so' - /opt/alt/php56/usr/lib64/php/modules/tokenizer.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 12:24:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php56/usr/lib64/php/modules/xml.so' - /opt/alt/php56/usr/lib64/php/modules/xml.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[15-Aug-2018 13:24:54 Europe/London] PHP Fatal error:  Uncaught exception 'yii\web\HeadersAlreadySentException' with message 'Headers already sent in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/web/Response.php on line 414.' in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/base/ErrorHandler.php(262): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#4 {main}
+  thrown in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/web/Response.php on line 366
+[03-Oct-2018 08:18:07 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 593
+[03-Oct-2018 08:20:42 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 593
+[03-Oct-2018 08:21:38 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 593
+[06-Nov-2018 18:55:35 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 272
+[06-Nov-2018 18:55:58 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 272
+[06-Nov-2018 20:24:17 Europe/London] PHP Fatal error:  Call to a member function where() on null in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 440
+[06-Nov-2018 20:25:10 Europe/London] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 437
+[06-Nov-2018 20:30:39 Europe/London] PHP Parse error:  syntax error, unexpected ';' in /home/grassflo/public_html/rawnaq/api/modules/v1/controllers/DefaultController.php on line 446
+[04-Dec-2018 16:25:50 Europe/London] PHP Fatal error:  Cannot use yii\web\Controller as Controller because the name is already in use in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 12
+[04-Dec-2018 16:27:15 Europe/London] PHP Fatal error:  Cannot use yii\web\Controller as Controller because the name is already in use in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 12
+[08-Dec-2018 00:10:04 Europe/London] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 268
+[14-Dec-2018 12:21:45 Europe/London] PHP Parse error:  syntax error, unexpected '$limit' (T_VARIABLE), expecting ',' or ')' in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 510
+[14-Dec-2018 12:22:09 Europe/London] PHP Parse error:  syntax error, unexpected '$limit' (T_VARIABLE), expecting ',' or ')' in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 510
+[14-Dec-2018 12:22:52 Europe/London] PHP Parse error:  syntax error, unexpected '$limit' (T_VARIABLE), expecting ',' or ')' in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 510
+[14-Dec-2018 12:30:22 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:30:23 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:30:23 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:30:24 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:32:12 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:32:26 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:32:58 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:33:28 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:34:24 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:40:09 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[14-Dec-2018 12:40:09 Europe/London] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 492
+[23-Apr-2019 14:33:13 Europe/London] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 773
+[01-Jul-2019 09:47:40 UTC] PHP Fatal error:  Cannot destroy active lambda function in [no active file] on line 0
+[23-Jul-2019 08:14:16 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yeesoft\web\MultilingualUrlManager::' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('', 'index')
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yeesoft\web\MultilingualUrlManager), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yeesoft\\web\\Mul...', Array, Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yeesoft\\web\\Mul...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('urlManager', true)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(571): yii\base\Module->get('urlManager')
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(197): yii\base\Application->getUrlManager()
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#15 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#16 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTazyEvgMQDXkphDzsuGMgAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '12-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTazyEvgMQDXkphDzsuGMgAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '12-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTazyEvgMQDXkphDzsuGMgAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '12-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52292',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866056.6607439517974853515625,
+    'REQUEST_TIME' => 1563866056,
+]
+[23-Jul-2019 08:14:28 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yeesoft\web\MultilingualUrlManager::' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('', 'index')
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yeesoft\web\MultilingualUrlManager), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yeesoft\\web\\Mul...', Array, Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yeesoft\\web\\Mul...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('urlManager', true)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(571): yii\base\Module->get('urlManager')
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(197): yii\base\Application->getUrlManager()
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#15 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#16 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTaz1KsyDGXfCMIKn4SstwAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '202-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTaz1KsyDGXfCMIKn4SstwAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '202-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTaz1KsyDGXfCMIKn4SstwAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '202-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52311',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866068.4832499027252197265625,
+    'REQUEST_TIME' => 1563866068,
+]
+[23-Jul-2019 08:14:52 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yeesoft\web\MultilingualUrlManager::' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('', 'index')
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yeesoft\web\MultilingualUrlManager), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yeesoft\\web\\Mul...', Array, Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yeesoft\\web\\Mul...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('urlManager', true)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(571): yii\base\Module->get('urlManager')
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(197): yii\base\Application->getUrlManager()
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#15 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#16 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTaz7LDl8MlDaZNq7y5J@gAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '71-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTaz7LDl8MlDaZNq7y5J@gAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '71-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTaz7LDl8MlDaZNq7y5J@gAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '71-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52326',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866092.4350988864898681640625,
+    'REQUEST_TIME' => 1563866092,
+]
+[23-Jul-2019 08:26:17 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa2masyDGXfCMIKn4SzOwAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '200-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa2masyDGXfCMIKn4SzOwAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '200-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa2masyDGXfCMIKn4SzOwAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '200-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52570',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866777.1144878864288330078125,
+    'REQUEST_TIME' => 1563866777,
+]
+[23-Jul-2019 08:26:23 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa2n7Dl8MlDaZNq7y5RqQAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '81-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa2n7Dl8MlDaZNq7y5RqQAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '81-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa2n7Dl8MlDaZNq7y5RqQAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '81-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52585',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866783.672689914703369140625,
+    'REQUEST_TIME' => 1563866783,
+]
+[23-Jul-2019 08:26:45 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa2tbDl8MlDaZNq7y5SLgAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '88-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa2tbDl8MlDaZNq7y5SLgAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '88-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa2tbDl8MlDaZNq7y5SLgAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '88-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52593',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866805.80838108062744140625,
+    'REQUEST_TIME' => 1563866805,
+]
+[23-Jul-2019 08:27:28 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa24ENJe6RC9ouH0K@hUAAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '646-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa24ENJe6RC9ouH0K@hUAAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '646-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa24ENJe6RC9ouH0K@hUAAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '646-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52603',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866848.5185101032257080078125,
+    'REQUEST_TIME' => 1563866848,
+]
+[23-Jul-2019 08:27:52 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa2@GM1SJevzyBEjvz2IQAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '587-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa2@GM1SJevzyBEjvz2IQAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '587-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa2@GM1SJevzyBEjvz2IQAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '587-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52614',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866872.53779506683349609375,
+    'REQUEST_TIME' => 1563866872,
+]
+[23-Jul-2019 08:28:07 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa3B3q8Ld6IaHUN2LYLzgAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '512-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa3B3q8Ld6IaHUN2LYLzgAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '512-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa3B3q8Ld6IaHUN2LYLzgAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '512-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52624',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866887.4993369579315185546875,
+    'REQUEST_TIME' => 1563866887,
+]
+[23-Jul-2019 08:28:34 Europe/London] An Error occurred while handling another error:
+exception 'yii\base\InvalidArgumentException' with message 'Response content must not be an array.' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php:1057
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Response.php(337): yii\web\Response->prepare()
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\Dispatcher::errorHandler' in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Component.php:209
+Stack trace:
+#0 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(546): yii\base\Component->__set('errorHandler', Array)
+#1 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(107): yii\BaseYii::configure(Object(yii\log\Dispatcher), Array)
+#2 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\BaseObject->__construct(Array)
+#3 [internal function]: yii\log\Dispatcher->__construct(Array)
+#4 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#5 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#6 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#7 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#8 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('log', true)
+#9 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(508): yii\base\Module->get('log')
+#10 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2-debug/Module.php(189): yii\base\Application->getLog()
+#11 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(327): yii\debug\Module->bootstrap(Object(yii\web\Application))
+#12 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/web/Application.php(69): yii\base\Application->bootstrap()
+#13 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(273): yii\web\Application->bootstrap()
+#14 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\base\Application->init()
+#15 /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/base/Application.php(206): yii\base\BaseObject->__construct(Array)
+#16 /home/s9zlx8fn0uq2/public_html/api/web/index.php(27): yii\base\Application->__construct(Array)
+#17 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_HOST' => 'www.rawnaqtourism.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_ORIGIN' => 'https://rawnaqtourism.com',
+    'HTTP_TE' => 'trailers',
+    'HTTP_X_HTTPS' => '1',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'XTa3IkvgMQDXkphDzsuRLwAAAA8',
+    'REDIRECT_REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_REDIRECT_HTTP2' => 'on',
+    'REDIRECT_REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_REDIRECT_H2_STREAM_TAG' => '23-15',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XTa3IkvgMQDXkphDzsuRLwAAAA8',
+    'REDIRECT_SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'REDIRECT_SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'REDIRECT_HTTP2' => 'on',
+    'REDIRECT_H2PUSH' => 'on',
+    'REDIRECT_H2_PUSH' => 'on',
+    'REDIRECT_H2_PUSHED' => '',
+    'REDIRECT_H2_PUSHED_ON' => '',
+    'REDIRECT_H2_STREAM_ID' => '15',
+    'REDIRECT_H2_STREAM_TAG' => '23-15',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XTa3IkvgMQDXkphDzsuRLwAAAA8',
+    'SCRIPT_URL' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_URI' => 'https://www.rawnaqtourism.com/api/v1/default/get-all-navigation',
+    'HTTPS' => 'on',
+    'SSL_TLS_SNI' => 'www.rawnaqtourism.com',
+    'HTTP2' => 'on',
+    'H2PUSH' => 'on',
+    'H2_PUSH' => 'on',
+    'H2_PUSHED' => '',
+    'H2_PUSHED_ON' => '',
+    'H2_STREAM_ID' => '15',
+    'H2_STREAM_TAG' => '23-15',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.rawnaqtourism.com',
+    'SERVER_ADDR' => '160.153.133.229',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '122.160.255.145',
+    'DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/s9zlx8fn0uq2/public_html',
+    'SERVER_ADMIN' => 'webmaster@rawnaqtourism.com',
+    'SCRIPT_FILENAME' => '/home/s9zlx8fn0uq2/public_html/api/web/index.php',
+    'REMOTE_PORT' => '52648',
+    'REDIRECT_URL' => '/api/web/frontend/api/v1/default/get-all-navigation/default/get-all-navigation',
+    'SERVER_PROTOCOL' => 'HTTP/2.0',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/api/v1/default/get-all-navigation',
+    'SCRIPT_NAME' => '/api/web/index.php',
+    'PHP_SELF' => '/api/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1563866914.836369991302490234375,
+    'REQUEST_TIME' => 1563866914,
+]
+[23-Jul-2019 10:24:31 UTC] PHP Warning:  require(/home/s9zlx8fn0uq2/public_html/api/web/../../common/config/bootstrap.php): failed to open stream: No such file or directory in /home/s9zlx8fn0uq2/public_html/api/web/index.php on line 17
+[23-Jul-2019 10:24:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/s9zlx8fn0uq2/public_html/api/web/../../common/config/bootstrap.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/s9zlx8fn0uq2/public_html/api/web/index.php on line 17
+[23-Jul-2019 11:43:00 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\models\Destination' not found in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 268
+[23-Jul-2019 11:43:01 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\models\Hotel' not found in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 353
+[23-Jul-2019 11:43:08 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\models\Destination' not found in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 268
+[23-Jul-2019 11:45:57 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\models\Destination' not found in /home/s9zlx8fn0uq2/public_html/api/modules/v1/controllers/DefaultController.php on line 268
