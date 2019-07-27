@@ -1,0 +1,21 @@
+{
+  "name": "yeesoft/yii2-yee-auth",
+  "description": "Authorization Module For Yee CMS",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Taras Makitra",
+      "email": "makitrataras@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-authclient": "~2.1.0",
+    "yeesoft/yii2-yee-core": "~0.1.0",
+    "yeesoft/yii2-yee-user": "~0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "yeesoft\\auth\\": ""
+    }
+  }
+}

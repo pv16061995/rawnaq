@@ -1,0 +1,24 @@
+{
+  "name": "yeesoft/yii2-yee-media",
+  "description": "Media Module For Yee CMS",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Taras Makitra",
+      "email": "makitrataras@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "yiisoft/yii2-imagine": "~2.1",
+    "yeesoft/yii2-yee-core": "~0.1.0",
+    "tinymce/tinymce": "~4.5.0",
+    "2amigos/yii2-file-upload-widget": "~1.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "yeesoft\\media\\": ""
+    }
+  }
+}

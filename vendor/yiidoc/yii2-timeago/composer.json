@@ -1,0 +1,28 @@
+{
+    "name": "yiidoc/yii2-timeago",
+    "description": "Timeago is a jQuery plugin that makes it easy to support automatically updating fuzzy timestamps. Forked from @rmm5t for Yii2 framework.",
+    "keywords": [
+        "yii", "jquery", "timeago"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiidoc/yii2-timeago/issues",
+        "source": "https://github.com/yiidoc/yii2-timeago"
+    },
+    "authors": [
+        {
+            "name": "Nghia Nguyen",
+            "email": "yiidevelop@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-timeago": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\timeago\\": ""
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "yeesoft/yii2-yee-core",
+    "description": "Core Module For Yee CMS",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Taras Makitra",
+            "email": "makitrataras@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "ikimea/browser": "~1.14",
+        "yiisoft/yii2-jui": "~2.0",
+        "bower-asset/metisMenu": "*",
+        "omgdef/yii2-multilingual-behavior": "~2.0",
+        "rmrevin/yii2-fontawesome": "~2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "yeesoft\\": ""
+        }
+    }
+}
