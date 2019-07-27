@@ -1,0 +1,43 @@
+<?php
+
+namespace common\modules\hotel\controllers;
+
+use yeesoft\controllers\admin\BaseController;
+
+/**
+ * DestinationController implements the CRUD actions for hotel\models\Destination model.
+ */
+class DestinationController extends BaseController
+{
+
+    public $disabledActions = ['view', 'bulk-activate', 'bulk-deactivate'];
+
+    public function init()
+    {
+        $this->layout = '@app/views/layouts/admin/main.php';
+        $this->modelClass = $this->module->destinationModelClass;
+        $this->modelSearchClass = $this->module->destinationModelSearchClass;
+
+        $this->indexView = $this->module->destinationIndexView;
+        $this->viewView = $this->module->destinationViewView;
+        $this->createView = $this->module->destinationCreateView;
+        $this->updateView = $this->module->destinationUpdateView;
+
+        parent::init();
+    }
+
+    protected function getRedirectPage($action, $model = null)
+    {
+        switch ($action) {
+            case 'update':
+                return ['update', 'id' => $model->id];
+                break;
+            case 'create':
+                return ['update', 'id' => $model->id];
+                break;
+            default:
+                return parent::getRedirectPage($action, $model);
+        }
+    }
+
+}

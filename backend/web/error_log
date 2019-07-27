@@ -1,0 +1,123 @@
+[29-Jul-2018 21:40:43 Europe/London] An Error occurred while handling another error:
+Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_strlen() in /home/delveneers/public_html/rawnaq/vendor/symfony/polyfill-mbstring/Mbstring.php:473
+Stack trace:
+#0 /home/delveneers/public_html/rawnaq/vendor/symfony/polyfill-mbstring/bootstrap.php(33): Symfony\Polyfill\Mbstring\Mbstring::mb_strlen('Suspendisse non...', 'UTF-8')
+#1 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(453): mb_strlen('Suspendisse non...', 'UTF-8')
+#2 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/views/errorHandler/callStackItem.php(26): yii\web\ErrorHandler->argumentsToString(Array)
+#3 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(336): require('/home/delveneer...')
+#4 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/delveneer...', Array)
+#5 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(266): yii\base\View->renderFile('/home/delveneer...', Array, Object(yii\web\ErrorHandler))
+#6 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(319): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#7 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(342): yii\web\ErrorHandler->renderCallStackItem('/home/delveneer...', 37, 'Symfony\\Polyfil...', 'mb_substr', Array, 2)
+#8 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/views/errorHandler/exception.php(433): yii\web\ErrorHandler->renderCallStack(Object(Error))
+#9 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(336): require('/home/delveneer...')
+#10 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/delveneer...', Array)
+#11 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(266): yii\base\View->renderFile('/home/delveneer...', Array, Object(yii\web\ErrorHandler))
+#12 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/ErrorHandler.php(126): yii\web\ErrorHandler->renderFile('@yii/views/erro...', Array)
+#13 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(Error))
+#14 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#15 {main}
+Previous exception:
+Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv_substr() in /home/delveneers/public_html/rawnaq/vendor/symfony/polyfill-mbstring/Mbstring.php:558
+Stack trace:
+#0 /home/delveneers/public_html/rawnaq/vendor/symfony/polyfill-mbstring/bootstrap.php(38): Symfony\Polyfill\Mbstring\Mbstring::mb_substr('Suspendisse non...', 0, 200, 'UTF-8')
+#1 /home/delveneers/public_html/rawnaq/vendor/yeesoft/yii2-yee-post/widgets/dashboard/views/posts.php(30): mb_substr('Suspendisse non...', 0, 200, 'UTF-8')
+#2 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(336): require('/home/delveneer...')
+#3 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/home/delveneer...', Array)
+#4 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/delveneer...', Array, Object(yeesoft\post\widgets\dashboard\Posts))
+#5 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Widget.php(236): yii\base\View->render('posts', Array, Object(yeesoft\post\widgets\dashboard\Posts))
+#6 /home/delveneers/public_html/rawnaq/vendor/yeesoft/yii2-yee-post/widgets/dashboard/Posts.php(53): yii\base\Widget->render('posts', Array)
+#7 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Widget.php(140): yeesoft\post\widgets\dashboard\Posts->run()
+#8 /home/delveneers/public_html/rawnaq/vendor/yeesoft/yii2-yee-core/web/DashboardAction.php(70): yii\base\Widget::widget()
+#9 /home/delveneers/public_html/rawnaq/vendor/yeesoft/yii2-yee-core/web/DashboardAction.php(35): yeesoft\web\DashboardAction->render()
+#10 [internal function]: yeesoft\web\DashboardAction->run()
+#11 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#12 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#13 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#14 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#15 /home/delveneers/public_html/rawnaq/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /home/delveneers/public_html/rawnaq/backend/web/index.php(18): yii\base\Application->run()
+#17 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.1355647337.1521575343; _identity=cc05712757124180a262a6f89d90e37f3b0088b4c4f8c08bfdac76f86d19bf31a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A14%3A%22%5B1%2C%22%22%2C2592000%5D%22%3B%7D; PHPSESSID=8jcpib4itp4uggb15ubqo6j701; _csrf=9924a3ee157f002c851ebd174ea6eba0216fef1d255e93c0cac6de67b64fd919a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ilF3JGxTXDpGlSvKXe67-obhIZpL3FPp%22%3B%7D',
+    'HTTP_HOST' => 'rawnaq.delveneers.com',
+    'HTTP_REFERER' => 'http://rawnaq.delveneers.com/login',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'DOCUMENT_ROOT' => '/home/delveneers/public_html/rawnaq',
+    'REMOTE_ADDR' => '94.207.131.96',
+    'REMOTE_PORT' => '57743',
+    'SERVER_ADDR' => '78.46.24.92',
+    'SERVER_NAME' => 'rawnaq.delveneers.com',
+    'SERVER_ADMIN' => 'webmaster@rawnaq.delveneers.com',
+    'SERVER_PORT' => '80',
+    'REQUEST_URI' => '/admin',
+    'REDIRECT_URL' => '/admin',
+    'REDIRECT_STATUS' => '200',
+    'SCRIPT_FILENAME' => '/home/delveneers/public_html/rawnaq/backend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'http://rawnaq.delveneers.com/admin',
+    'SCRIPT_URL' => '/admin',
+    'SCRIPT_NAME' => '/backend/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'PHP_SELF' => '/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1532896843.7321670055389404296875,
+    'REQUEST_TIME' => 1532896843,
+    'argv' => [],
+    'argc' => 0,
+]
+[14-Aug-2018 20:53:15 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[14-Aug-2018 20:58:54 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 262144 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 123
+[14-Aug-2018 21:06:12 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[14-Aug-2018 21:06:26 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9926073 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 64
+[27-Aug-2018 01:17:14 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 01:18:55 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 01:53:12 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\controllers\HotelServices' not found in /home/grassflo/public_html/rawnaq/common/modules/hotel/controllers/RoomController.php on line 256
+[27-Aug-2018 01:53:54 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\controllers\HotelServices' not found in /home/grassflo/public_html/rawnaq/common/modules/hotel/controllers/RoomController.php on line 256
+[27-Aug-2018 01:54:05 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\controllers\HotelServices' not found in /home/grassflo/public_html/rawnaq/common/modules/hotel/controllers/RoomController.php on line 256
+[27-Aug-2018 17:50:04 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 17:51:20 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 17:52:23 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 17:59:12 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:01:41 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:02:50 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:03:05 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:03:22 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:03:37 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:03:53 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[27-Aug-2018 18:04:11 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2/db/Command.php on line 219
+[28-Aug-2018 02:56:39 Europe/London] PHP Fatal error:  Class 'common\modules\hotel\controllers\HotelServices' not found in /home/grassflo/public_html/rawnaq/common/modules/hotel/controllers/RoomController.php on line 256
+[08-Sep-2018 22:01:54 Europe/London] PHP Fatal error:  Call to a member function saveAs() on null in /home/grassflo/public_html/rawnaq/common/modules/media/models/Media.php on line 178
+[09-Sep-2018 23:51:49 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31654582 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:14:14 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 34816698 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:21:58 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 34722410 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:35:22 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31603649 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:39:13 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31710105 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:45:30 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 34658555 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[11-Sep-2018 21:47:40 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31679458 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[09-Nov-2018 15:41:53 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31634272 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[09-Nov-2018 15:46:50 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31607899 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[09-Nov-2018 15:49:00 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31607317 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[09-Nov-2018 15:51:12 Europe/London] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 31606252 bytes) in /home/grassflo/public_html/rawnaq/vendor/yiisoft/yii2-debug/LogTarget.php on line 56
+[05-Dec-2018 17:10:54 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[05-Dec-2018 17:11:07 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[05-Dec-2018 17:11:19 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[05-Dec-2018 17:12:42 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[05-Dec-2018 17:46:57 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[05-Dec-2018 18:37:09 Europe/London] PHP Fatal error:  Cannot use yii\base\Object as Object because 'Object' is a special class name in /home/s9zlx8fn0uq2/public_html/vendor/yeesoft/yii2-yee-core/widgets/MultilingualFieldContainer.php on line 5
+[07-Dec-2018 10:50:27 UTC] PHP Warning:  require_once(/home/s9zlx8fn0uq2/public_html/backend/web/vendor/yiisoft/yii2/requirements/YiiRequirementChecker.php): failed to open stream: No such file or directory in /home/s9zlx8fn0uq2/public_html/backend/web/requirements.php on line 23
+[07-Dec-2018 10:50:27 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/s9zlx8fn0uq2/public_html/backend/web/vendor/yiisoft/yii2/requirements/YiiRequirementChecker.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/s9zlx8fn0uq2/public_html/backend/web/requirements.php on line 23
+[05-Jan-2019 05:33:38 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
+[05-Jan-2019 05:34:00 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
+[05-Jan-2019 05:34:26 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
+[05-Jan-2019 05:38:00 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
+[05-Jan-2019 05:59:26 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20672 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/imagine/imagine/lib/Imagine/Gd/Image.php on line 602
+[13-Mar-2019 12:01:42 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
+[13-Mar-2019 12:02:04 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65552 bytes) in /home/s9zlx8fn0uq2/public_html/vendor/yiisoft/yii2/db/Command.php on line 219
